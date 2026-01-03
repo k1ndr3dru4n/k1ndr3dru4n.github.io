@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Profile # the website title (if blank, full name will be used instead)
+title: 'blank' # the website title (if blank, full name will be used instead)
 first_name: Shijie
 middle_name: 
 last_name: Ruan
@@ -122,13 +122,14 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# Commented out to avoid timeout errors during build
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -188,6 +189,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _posts/2020-09-28-twitter.md  # Excluded due to Twitter plugin network timeout issues
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -213,7 +215,7 @@ plugins:
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
-  - jekyll-twitter-plugin
+  # - jekyll-twitter-plugin  # Temporarily disabled due to network timeout issues
   - jemoji
 
 # Sitemap settings
@@ -348,7 +350,8 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  # Temporarily disabled due to UTF-8 encoding issues on Windows
   widths:
     - 480
     - 800
