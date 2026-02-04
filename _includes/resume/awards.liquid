@@ -8,10 +8,31 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.title }}</a>
+            {% if content.links and content.links.size > 0 %}
+              {{ content.title }}
+            {% elsif content.url %}
+              <a href="{{ content.url }}" target="_blank" rel="noopener noreferrer">{{ content.title }}</a>
+            {% else %}
+              {{ content.title }}
+            {% endif %}
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.awarder }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          {% if content.links and content.links.size > 0 %}
+            <div class="container-links ml-1 ml-md-4 mt-2">
+              {% for item in content.links %}
+                {% if item.link %}
+                  <div class="container-link-button" style="display: inline-block; margin-right: 10px; margin-bottom: 5px;">
+                    {% if item.name %}
+                      <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" class="btncv z-depth-0">{{ item.name }}</a>
+                    {% else %}
+                      <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" class="btncv z-depth-0">Certificate</a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </div>
     </li>

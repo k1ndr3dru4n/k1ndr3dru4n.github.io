@@ -1,200 +1,357 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ruan Shijie",
+    "label": "Computer Science Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "2205893054@qq.com",
+    "phone": "18506855670",
+    "url": "https://k1ndr3d.com/",
+    "summary": "Undergraduate student majoring in Computer Science at Southwest Jiaotong University - Leeds Joint School.",
+    "profiles": []
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Wistron Corporation (Zhongshan) Co., Ltd.",
+      "position": "IT Development Engineer",
+      "url": "https://www.wistron.com/cn",
+      "startDate": "2025-08",
+      "endDate": "2025-09",
+      "summary": "Familiar with ASP.NET framework and database management. Gained understanding of software development lifecycle from requirements to server deployment and operations. Learned Linux Ubuntu server cluster deployment and cloud-native architecture. Completed a student course selection management system based on ASP.NET Core Blazor.",
+      "highlights": [
+        "ASP.NET Core Blazor development",
+        "Linux Ubuntu server cluster deployment",
+        "Cloud-native architecture",
+        "Database management"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Student Innovation and Practice Center",
+      "position": "Vice Chairman",
+      "startDate": "2025-09",
+      "endDate": "2026-06",
+      "summary": "Responsible for organizing and managing student innovation and practice activities."
+    },
+    {
+      "organization": "Cybersecurity Association",
+      "position": "President",
+      "startDate": "2025-09",
+      "endDate": "2026-06",
+      "summary": "Led the Cybersecurity Association, organizing CTF competitions and cybersecurity training activities."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Southwest Jiaotong University",
+      "area": "Computer Science",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2023.09",
+      "endDate": "2027.06",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Third Prize, China College Students Service Outsourcing Innovation and Entrepreneurship Competition",
+      "date": "2025",
+      "awarder": "Ministry of Education of China",
+      "summary": "",
+      "url": "/assets/img/awards1.png"
+    },
+    {
+      "title": "Third Prize, Sichuan Province College Students Computer Design Competition",
+      "date": "2025",
+      "awarder": "Sichuan Province Education Department",
+      "summary": "",
+      "url": "/assets/img/awards2.jpg"
+    },
+    {
+      "title": "Second Prize, Sichuan Province College Students Information Security Technology Competition",
+      "date": "2025",
+      "awarder": "Sichuan Province Education Department",
+      "summary": "",
+      "url": "/assets/img/awards3.jpg"
+    },
+    {
+      "title": "Third Prize, 15th Lanqiao Cup National Software and Information Technology Professional Talent Competition (Sichuan Division, C/C++ Programming, University Group A)",
+      "date": "2024",
+      "awarder": "Ministry of Industry and Information Technology",
+      "summary": "",
+      "url": "/assets/img/awards4.jpg"
+    },
+    {
+      "title": "Third Prize, 16th Lanqiao Cup National Software and Information Technology Professional Talent Competition (Sichuan Division, C/C++ Programming, University Group A)",
+      "date": "2025",
+      "awarder": "Ministry of Industry and Information Technology",
+      "summary": "",
+      "url": "/assets/img/awards5.jpg"
+    },
+    {
+      "title": "Third Prize, Leeds Technology Month Computer Science Track (AI Reversi)",
+      "date": "2024",
+      "awarder": "Southwest Jiaotong University - Leeds Joint School",
+      "summary": "",
+      "url": "/assets/pdf/awards1.pdf"
+    },
+    {
+      "title": "Third Prize, Southwest Jiaotong University CTF Rookie Cup",
+      "date": "2024",
+      "awarder": "Southwest Jiaotong University",
+      "summary": "",
+      "url": "/assets/img/awards6.jpg"
+    },
+    {
+      "title": "Second Place, Southwest Jiaotong University Freshman Badminton Competition (Men's Doubles)",
+      "date": "2023",
+      "awarder": "Southwest Jiaotong University",
+      "summary": "",
+      "url": "/assets/img/awards7.jpg"
+    },
+    {
+      "title": "Ninth Place, 4th National Swimming City Series (Men's 18-24 Age Group, 200m Freestyle Final)",
+      "date": "2025",
+      "awarder": "Chinese Swimming Association",
+      "summary": "",
+      "url": "/assets/pdf/record.pdf"
+    },
+    {
+      "title": "Award, 19th National College Students Information Security Competition (Chongqing Division)",
+      "date": "2026",
+      "awarder": "Ministry of Education of China",
+      "summary": ""
+    },
+    {
+      "title": "Outstanding Student Cadre",
+      "date": "2024-2025",
+      "awarder": "Southwest Jiaotong University",
+      "summary": ""
+    },
+    {
+      "title": "Comprehensive Third-Class Scholarship",
+      "date": "2025",
+      "awarder": "Southwest Jiaotong University",
+      "summary": ""
+    },
+    {
+      "title": "Sichuan Province Two-Star Volunteer",
+      "awarder": "Sichuan Province",
+      "summary": "",
+      "url": "/assets/img/awards8.jpg"
+    },
+    {
+      "title": "Outstanding Practice Team Leader, 2025 Winter Social Practice Activity",
+      "date": "2025",
+      "awarder": "Southwest Jiaotong University",
+      "summary": "",
+      "links": [
+        {
+          "link": "/assets/img/awards9.jpg",
+          "name": "Team Certificate"
+        },
+        {
+          "link": "/assets/img/awards10.jpg",
+          "name": "Personal Certificate"
+        }
+      ]
+    },
+    {
+      "title": "Outstanding Practice Team Leader, 2025 Summer Social Practice Activity",
+      "date": "2025",
+      "awarder": "Southwest Jiaotong University",
+      "summary": "",
+      "links": [
+        {
+          "link": "/assets/pdf/awards2.pdf",
+          "name": "Team Certificate"
+        },
+        {
+          "link": "/assets/pdf/awards3.pdf",
+          "name": "Personal Certificate"
+        }
+      ]
+    },
+    {
+      "title": "Selected for 2025 National Care Action 'Colorful Holiday' Volunteer Service Team",
+      "date": "2025",
+      "awarder": "Central Committee of the Communist Youth League",
+      "summary": "",
+      "url": "/assets/pdf/awards4.pdf"
+    },
+    {
+      "title": "Graduated from the 13th Session of the Southwest Jiaotong University Young Marxist Training Program 'Key Talent' Class",
+      "date": "2025-2026",
+      "awarder": "Southwest Jiaotong University",
+      "summary": ""
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "National Information Security Proficiency Test (NISP) Level 1 Certificate",
+      "date": "2026",
+      "issuer": "China Information Security Evaluation Center",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Sichuan Province College Students 'Comprehensive Quality A-Level Certificate'",
+      "date": "2026",
+      "issuer": "Sichuan Province Education Department",
+      "icon": "fa-solid fa-certificate"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Proficient",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C/C++",
+        "Python",
+        "ASP.NET Core",
+        "Blazor"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Proficient",
+      "keywords": [
+        "ASP.NET Core",
+        "Blazor",
+        "Database Management"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "level": "Intermediate",
+      "keywords": [
+        "Linux Ubuntu",
+        "Server Cluster Deployment",
+        "Cloud-Native Architecture"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Intermediate",
+      "keywords": [
+        "Computer Vision",
+        "Deep Learning",
+        "Image Processing",
+        "Object Detection",
+        "Image Segmentation"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "level": "Intermediate",
+      "keywords": [
+        "CTF",
+        "Information Security",
+        "Network Security"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "Chinese",
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Software Development",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Web Development",
+        "System Architecture",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "keywords": [
+        "CTF Competitions",
+        "Information Security",
+        "Network Security"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Computer Vision",
+        "Deep Learning",
+        "LLM Applications"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Swimming",
+        "Badminton",
+        "Volleyball",
+        "Football",
+        "Cycling"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Multi-Agent Collaborative Autonomous Driving Scene Generation Framework Based on LLM",
+      "summary": "National-level University Student Innovation Training Program project (2025). Focus on developing a framework for generating autonomous driving scenarios using Large Language Models and multi-agent collaboration.",
+      "highlights": [
+        "LLM Integration",
+        "Multi-Agent Systems",
+        "Autonomous Driving",
+        "Scene Generation"
+      ],
+      "startDate": "2025-01",
+      "endDate": "2026-04",
+      "url": ""
+    },
+    {
+      "name": "Machine Learning for Computer Vision Course",
+      "summary": "Participated in the '2024 International Top Innovative Talent Training Program' at Southwest Jiaotong University. Completed the full English course 'Machine Learning for Computer Vision' taught by Professor Jens Rittscher from the Department of Engineering Science, University of Oxford. Systematically learned core algorithm principles including image processing, object detection, image segmentation, deep learning, and visual motion analysis. Focused on cutting-edge applications such as face recognition, autonomous driving, and medical image analysis. Completed multiple computer vision programming practice tasks using Python.",
+      "highlights": [
+        "Computer Vision",
+        "Machine Learning",
+        "Deep Learning",
+        "Image Processing",
+        "Object Detection",
+        "Image Segmentation",
+        "Face Recognition",
+        "Autonomous Driving",
+        "Medical Image Analysis"
+      ],
+      "startDate": "2024-01",
+      "endDate": "2024-06",
+      "url": "/assets/pdf/project1.pdf"
+    },
+    {
+      "name": "Southwest Jiaotong University CTF-OJ Platform",
+      "summary": "Created and operated the CTF Online Judge platform for Southwest Jiaotong University, providing a platform for cybersecurity competitions and training.",
+      "highlights": [
+        "CTF Platform Development",
+        "Online Judge System",
+        "Cybersecurity Education"
+      ],
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "name": "Southwest Jiaotong University Cybersecurity Association Wiki",
+      "summary": "Created and operated the wiki platform for the Southwest Jiaotong University Cybersecurity Association, providing resources and documentation for cybersecurity learning and competitions.",
+      "highlights": [
+        "Wiki Platform Development",
+        "Knowledge Management",
+        "Cybersecurity Documentation"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://wiki.swjtunsa.com"
     }
   ]
 }

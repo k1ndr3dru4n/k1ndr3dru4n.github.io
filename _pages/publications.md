@@ -15,6 +15,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<p>No publications available at the moment.</p>
 
 </div>
