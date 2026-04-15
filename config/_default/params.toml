@@ -10,17 +10,18 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+    since             = 2026
+    copyrightHolder   = "Blog@k1ndr3dru4n"
+    customText        = ""
 
 [dateFormat]
     published   = ":date_full"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "img/avatar.png"
+    emoji    = "😅"
+    subtitle = "Ciallo～(∠・ω< )⌒★"
+    avatar   = "img/avatar.jpg"
 
 [article]
     headingAnchor = false
@@ -39,10 +40,6 @@ SortBy              = "default"
         { type = "tag-cloud", params = { limit = 10 } },
     ]
     page = [{ type = "toc" }]
-
-[opengraph.twitter]
-    site = ""
-    card = "summary_large_image"
 
 [colorScheme]
     toggle  = true

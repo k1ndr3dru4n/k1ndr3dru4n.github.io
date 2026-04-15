@@ -1,0 +1,14 @@
+{{- /* 使用 assets/img/site-background.jpg；勿用 background.jpg 作文件名，Hugo 会额外输出无哈希副本易被 CDN 缓存 */ -}}
+{{- with resources.Get "img/site-background.jpg" -}}
+{{- $bg := . | resources.Fingerprint "sha256" -}}
+<style>
+    body {
+        background-color: var(--body-background);
+        background-image: url("{{ $bg.RelPermalink }}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+{{- end -}}

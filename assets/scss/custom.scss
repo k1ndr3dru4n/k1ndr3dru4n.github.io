@@ -1,3 +1,18 @@
 /*
-    You can add your own custom styles here.
-*/
+ * 页面底色（整图背景：assets/img/site-background.jpg，由 head/custom.html 注入带哈希的 URL）
+ */
+
+:root {
+    --body-background: #e6eaf3;
+
+    /* 亮色模式：加深正文与次要文字（深色模式由主题 :root[data-scheme="dark"] 覆盖） */
+    --body-text-color: #3a3a3a;
+    --card-text-color-main: #141414;
+    --card-text-color-secondary: #4a4a4a;
+    --card-text-color-tertiary: #555;
+    --code-text-color: #4d4d4d;
+}
+
+:root[data-scheme="dark"] {
+    --body-background: #181a20;
+}

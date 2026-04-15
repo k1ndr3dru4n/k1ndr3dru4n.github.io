@@ -68,14 +68,12 @@ jobs:
       - name: Configure Git
         run: |
           git config core.quotepath false
-      - name: Cache restore
-        id: cache-restore
-        uses: actions/cache/restore@v4
+      - name: Cache Hugo build
+        uses: actions/cache@v4
         with:
           path: ${{ runner.temp }}/hugo_cache
-          key: hugo-${{ github.run_id }}
-          restore-keys:
-            hugo-
+          # 含 assets/**：换背景图等会换 key，避免沿用旧 fingerprint / 资源缓存
+          key: hugo-${{ runner.os }}-${{ hashFiles('go.sum', 'go.mod', 'assets/**', 'config/**', 'content/**', 'layouts/**', 'package-lock.json', 'package.json') }}
       - name: Build the site
         run: |
           hugo \
@@ -83,12 +81,6 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-      - name: Cache save
-        id: cache-save
-        uses: actions/cache/save@v4
-        with:
-          path: ${{ runner.temp }}/hugo_cache
-          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,5 +1,9 @@
 {{- $ThemeVersion := "4.0.0" -}}
 <footer class="site-footer">
+    <section class="copyright">
+        &copy; {{ .Site.Params.footer.since }} - {{ now.Format "2006" }} {{ .Site.Params.footer.copyrightHolder }}
+    </section>
+
     <section class="powerby">
         {{ with .Site.Params.footer.customText }}
             {{ . | safeHTML }} <br/>
