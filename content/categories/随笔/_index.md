@@ -1,10 +1,10 @@
 ---
-title: Tech
+title: 随笔
 description: 
 image:
 slug: 
 # Badge style
 style:
-    background: "#0ed8d8"
+    background: "#EA98FB"
     color: "#fff"
 ---
