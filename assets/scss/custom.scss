@@ -16,3 +16,14 @@
 :root[data-scheme="dark"] {
     --body-background: #181a20;
 }
+
+/* 文章卡片左上角分类徽章（不影响侧边栏标签云与文章底部 tags） */
+.article-category a {
+    background-color: #6495ED !important;
+    color: #FFFFFF !important;
+
+    &:hover {
+        background-color: #88ebeb !important;
+        color: #000000 !important;
+    }
+}

@@ -1,10 +1,10 @@
 ---
 title: 移动开发
 description: 
-image:
+image: 2.png
 slug: 
 # Badge style
 style:
-    background: "#0ed8d0"
-    color: "#fff"
+    background: "#FFFFFF"
+    color: "#000000"
 ---
