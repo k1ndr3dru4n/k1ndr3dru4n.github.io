@@ -1,7 +1,7 @@
 ---
-title: 回归人类自我的一些思考
+title: f9之后f10
 description: 
-slug: pure
+slug: f9
 date: 2026-06-13 00:00:00+0000
 image: 1.jpg
 categories:
@@ -17,7 +17,7 @@ weight:        # You can add weight to some posts to override the default sortin
 
 ![fake-PR](2.jpg)
 
-一开始看到还是有点毁三观的，心目中github这片开源者的净土都被污染了。
+一开始看到还是有点毁三观的，我心目中github这片开源者的净土都被资本污染了。
 
 想起来之前看某hs的时候，每刷到一个github自媒体相关的帖子就是几k followers，几k stars的项目，现在看来多半是打着大厂offer、高学历的幌子来拉群卖课的。
 
@@ -35,6 +35,6 @@ weight:        # You can add weight to some posts to override the default sortin
 
 我们不该把这个问题当成单选，从长期来看，可能自学能力的培养更为重要，但如果是短期需要补充个技能包，可能报课的效果会好一些，直接的经验补充在功利上还是胜过慢慢摸索。
 
-如果要做个选择，这好比是LLM的底层能力和RAG外挂的知识库（或许没有那么恰当），对我而言在完全理解某样东西后，运用起来会更得心应手，反之，则是抱着用不上就不学的态度来作取舍。
+如果要做个选择，这好比是LLM的底层能力和RAG外挂的知识库（或许没有那么恰当），对我而言在完全**理解**某样东西后，**运用**起来会更得心应手，反之，则是抱着用不上就不学的态度来作取舍。
 
-当拥有了自主思考的能力，我们才能真正把握自己的人生权重。
+当拥有了自主思考的能力，我们才能真正把握自己的人生。

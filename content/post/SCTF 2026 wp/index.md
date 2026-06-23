@@ -2,7 +2,7 @@
 title: SCTF 2026 wp
 description: 
 slug: sctf2026
-date: 2026-06-30 00:00:00+0000
+date: 2026-06-24 00:00:00+0000
 image: 1.jpg
 categories:
     - CTF
