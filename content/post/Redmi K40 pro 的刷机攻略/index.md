@@ -1,8 +1,8 @@
 ---
-title: Redmi K40 pro 的刷机体验
+title: Redmi K40 pro 的刷机攻略
 description: 
 slug: flashing
-date: 2026-05-15 00:00:00+0000
+date: 2026-05-15 00:00:00+0800
 image: 1.png
 categories:
     - 移动开发
@@ -33,7 +33,7 @@ weight:        # You can add weight to some posts to override the default sortin
 
 但越权操作往往伴随着风险，现代知名计算机学者```沃·兹基```经过研究发现如果刷机的某一步操作不当，可能导致手机直接变砖。
 
-当然道高一尺，魔高一丈。市面上有很多变砖复活恢复的方法，还是要勇于尝试。
+当然道高一尺，魔高一丈。市面上有很多变砖复活恢复的方法。
 
 ### ROM
 
@@ -207,7 +207,7 @@ ROM， Read-Only Memory
 
 ![All set](18.png)
 
-✅️开机后就开始系统初始化了
+开机后就开始系统初始化了
 
 如果遇到无法解决的问题，可以查阅下面的参考资料或询问AI：
 
@@ -223,6 +223,4 @@ ROM， Read-Only Memory
 
 Congratulation!
 
-刷机到这里就结束了，感觉跟着SOP一步一步操作下来，问题不是很多。如果后续要root，需要安装Magisk。
-
-希望我的经历对你的刷机之旅有所帮助🥹
+享受更接近原生安卓的体验，就来LineageOS

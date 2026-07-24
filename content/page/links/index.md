@@ -1,10 +1,10 @@
 ---
 title: Links
 links:
-  - title: SWJTUNSA-Wiki
-    description: Wiki for CTF beginners in SWJTUNSA.
-    website: https://wiki.swjtunsa.com/
-    image: logo.png
+  - title: 
+    description: 
+    website: 
+    image: 
 menu:
     main:
         weight: 4
