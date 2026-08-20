@@ -5,7 +5,7 @@ slug: flashing
 date: 2026-05-15 00:00:00+0800
 image: 1.png
 categories:
-    - 移动开发
+    - Mobile
 tags:
     - Android
 weight:        # You can add weight to some posts to override the default sorting (date descending)

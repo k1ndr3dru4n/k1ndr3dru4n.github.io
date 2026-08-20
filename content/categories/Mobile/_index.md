@@ -1,7 +1,7 @@
 ---
-title: 移动开发
+title: Mobile
 description: 
-image: 2.png
+image: 2.jpg
 slug: 
 # Badge style
 style:
